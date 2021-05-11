@@ -1,5 +1,6 @@
 --Exercício tirado de situação real.
-/* A empresa tinha duas tabelas: Envio e Endereço, como listada abaixo.
+
+A empresa tinha duas tabelas: Envio e Endereço, como listada abaixo.
 No atributo NR_LINHA_ARQUIV, há um número que referencia a 
 linha de incidência do endereço na tabela endereço.
 Por exemplo: 
@@ -22,4 +23,4 @@ que se colcasse as colunas NM_ENDERECO, NR_ENDERECO, NM_COMPLEMENTO, NM_BAIRRO, 
 NM_CIDADE, NM_UF varchar(2) e movesse os dados da tabela endereço para a tabela envio.
 
 Fazer uma PROCEDURE, com cursor, que resolva esse problema
-*/
+
